@@ -10,6 +10,6 @@ jobs:
     runs-on: ubuntu-20.04
 
     steps:
-      - name: Say Hello world
+      - name: Say hello world
       shell: bash
       run: echo Welcolme to my first action !
