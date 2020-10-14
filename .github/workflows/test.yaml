@@ -1,13 +1,15 @@
 name: Tests
 on:
   push:
-    branches: [master, dev]
+    branches: 
+      - master 
+      - dev
+
 jobs:
-  builds:
+  hello-world:
     runs-on: ubuntu-20.04
-    name: Hello-world
+
     steps:
-      # -uses:
-    - run: 
-        echo "Welcolme to my first action"
-      name: Say Hello world
+      - name: Say Hello world
+      shell: bash
+      run: echo Welcolme to my first action !
