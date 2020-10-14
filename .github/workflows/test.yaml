@@ -1,5 +1,4 @@
 name: Tests
-description: 'my first Tests with github action'
 on:
   push:
     branches: [master, dev]
