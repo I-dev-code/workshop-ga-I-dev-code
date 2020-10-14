@@ -9,6 +9,6 @@ jobs:
     name: Hello-world
     steps:
       # -uses:
-      run: 
+    - run: 
         echo "Welcolme to my first action"
       name: Say Hello world
