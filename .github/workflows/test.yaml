@@ -8,8 +8,8 @@ on:
 jobs:
   hello-world:
     runs-on: ubuntu-20.04
-
+    
     steps:
       - name: Say hello world
-      shell: bash
-      run: echo Welcolme to my first action !
+        shell: bash
+        run: echo Welcolme to my first action !
