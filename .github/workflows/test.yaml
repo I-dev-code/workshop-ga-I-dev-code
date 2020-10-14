@@ -6,5 +6,5 @@ on:
       - master
       - dev
 jobs:
-  runs-on: ubuntu-20.04
+  runs-on: 'ubuntu-20.04'
   run: echo Welcolme to my first action
