@@ -1,10 +1,14 @@
-name: 'Tests'
+name: Tests
 description: 'my first Tests with github action'
 on:
   push:
-    branches:
-      - master
-      - dev
+    branches: [master, dev]
 jobs:
-  runs-on: 'ubuntu-20.04'
-  run: echo Welcolme to my first action
+  builds:
+    runs-on: ubuntu-20.04
+    name: Hello-world
+    steps:
+      # -uses:
+      run: 
+        echo "Welcolme to my first action"
+      name: Say Hello world
